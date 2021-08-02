@@ -1,0 +1,6 @@
+一、
+	1、给 AutoConfigurationPackages.java 类的 register(registry, new PackageImports(metadata).getPackageNames().toArray(new String[0])); 方法中打上断点
+	2、给 AutoConfigurationPackages.java 类的 return Collections.singleton(new PackageImports(metadata)); 处打上断点
+	3、给 AutoConfigurationImportSelector.java 类的 Assert.state(deferredImportSelector instanceof AutoConfigurationImportSelector, 处打上断点
+	4、debugger启动 SpringbootSourceApplication01.java
+	5、查看idea的调用堆栈，从下往上查看它的调用过程

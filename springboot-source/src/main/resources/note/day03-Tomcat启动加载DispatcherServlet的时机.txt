@@ -1,0 +1,8 @@
+一、
+	1、给 DispatcherServletAutoConfiguration.java 类的 DispatcherServletRegistrationBean registration = new DispatcherServletRegistrationBean(dispatcherServlet, 处打上断点
+	2、给 TomcatWebServer.java initialize(); 处打上断点
+	3、给 RegistrationBean.java 类的 register(description, servletContext); 处打上断点
+	4、给 SpringbootSourceApplication01.java 类的 ServletRegistrationBean<HelloServlet01> registrationBean = new ServletRegistrationBean<>(new HelloServlet01()); 处打上断点
+	5、debugger启动 SpringbootSourceApplication01.java
+	6、查看idea的调用堆栈，从下往上查看它的调用过程
+	7、浏览器访问：http://localhost:8080/hi66

@@ -1,0 +1,6 @@
+一、
+	1、给 ServletWebServerFactoryConfiguration.java 类的 TomcatServletWebServerFactory factory = new TomcatServletWebServerFactory(); 处打上断点
+	2、给 TomcatServletWebServerFactory.java 类的 if (this.disableMBeanRegistry) { 处打上断点
+	3、给 ServletWebServerApplicationContext.java 类的 this.webServer = factory.getWebServer(getSelfInitializer()); 处打上断点
+	4、debugger启动 SpringbootSourceApplication01.java
+	5、查看idea的调用堆栈，从下往上查看它的调用过程

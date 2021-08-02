@@ -1,0 +1,2 @@
+一、
+	1、点击进去 SpringbootSourceApplication01.java 类中的 SpringApplication.run(SpringbootSourceApplication01.class, args); 方法进行查看
